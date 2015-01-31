@@ -1,5 +1,5 @@
 node_modules
-dist
+leancloud
 .tmp
 .sass-cache
 .uploader.coffee
