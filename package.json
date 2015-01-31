@@ -1,0 +1,17 @@
+{
+  "name": "kaleido",
+  "version": "0.0.1",
+  "description": "Dependencies for code grunt build",
+  "dependencies": {
+    "d3": "~3.5.0",
+    "jsdom": "~3.0.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-cli": "~0.1.6",
+    "request": "^2.51.0"
+  },
+  "repository": {},
+  "author": "loddit@gmail.com",
+  "license": "BSD"
+}
