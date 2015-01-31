@@ -1,13 +1,3 @@
-'use strict'
-
-###*
- # @ngdoc overview
- # @name kaleidoApp
- # @description
- # # kaleidoApp
- #
- # Main module of the application.
-###
 angular
   .module('kaleidoApp', [
     'ngAnimate',
@@ -16,7 +6,8 @@ angular
     'ngResource',
     'ngRoute'
   ])
-  .config ($routeProvider) ->
+  .config ($routeProvider, $locationProvider) ->
+    $locationProvider.html5Mode true
     $routeProvider
       .when '/',
         templateUrl: 'views/main.html'
