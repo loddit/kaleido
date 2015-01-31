@@ -1,2 +1,6 @@
 node_modules
-uploader.coffee
+dist
+.tmp
+.sass-cache
+.uploader.coffee
+bower_components
